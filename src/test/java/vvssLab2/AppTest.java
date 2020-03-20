@@ -15,10 +15,11 @@ public class AppTest
 {
     private StudentRepo studentRepo;
 
-    @Test(expected = ValidationException.class)
-    public void tc_1_AddStudent_BadEmail() {
+    @Test
+    public void tc_1_AddStudent() {
         studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
-        studentRepo.save(new Student("2294", "Cseke Alpar", 932, "csekealpar12gmail.com","Craciun Florin"));
+        studentRepo.save(new Student("2294", "Cseke Alpar", 932, "csekealpar12@gmail.com","Craciun Florin"));
+        assertEquals("Cseke Alpar", studentRepo.findOne("2294").getNume());
     }
 
     @Test(expected = ValidationException.class)
