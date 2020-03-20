@@ -18,7 +18,7 @@ public class AppTest
     @Test(expected = ValidationException.class)
     public void tc_1_AddStudent_BadEmail() {
         studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
-        studentRepo.save(new Student("2294", "Cseke Alpar", 932, "csekealpar12@gmailcom","Craciun Florin"));
+        studentRepo.save(new Student("2294", "Cseke Alpar", 932, "csekealpar12gmail.com","Craciun Florin"));
     }
 
     @Test(expected = ValidationException.class)
