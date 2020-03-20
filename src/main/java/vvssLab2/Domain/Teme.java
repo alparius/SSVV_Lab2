@@ -1,7 +1,5 @@
 package vvssLab2.Domain;
 
-import java.time.LocalDateTime;
-
 public class Teme implements hasID<Integer>{
     private Integer nr;
     private String descriere;

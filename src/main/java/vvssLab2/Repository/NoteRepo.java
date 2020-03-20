@@ -19,8 +19,6 @@ import java.io.*;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static java.io.InputStream.nullInputStream;
-
 public class NoteRepo extends AbstractRepo<Nota,Map.Entry<String,Integer>> {
     private DocumentBuilderFactory builderFactory;
     public NoteRepo(Validator<Nota> val){
@@ -112,13 +110,13 @@ public class NoteRepo extends AbstractRepo<Nota,Map.Entry<String,Integer>> {
     }
     public Nota save(Nota el,String fd) {
         AtomicInteger ok= new AtomicInteger();
-        findAll().forEach(n->{ if(n.getStudent()==el.getStudent() && n.getTema()==el.getTema())  ok.set(1); });
-        /**
+        //findAll().forEach(n->{ if(n.getStudent()==el.getStudent() && n.getTema()==el.getTema())  ok.set(1); });
+
          for(Nota n:findAll()){
          if(n.getStudent()==el.getStudent() && n.getTema()==el.getTema())
-         ok=1;
+         ok.set(1);
          }
-         */
+
         if(ok.get() ==0) {
             Nota t = super.save(el);
             try {
