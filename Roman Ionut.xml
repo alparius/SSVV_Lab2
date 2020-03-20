@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="11">
+        <nr>1</nr>
+        <valoare>5.0</valoare>
+        <predat>6</predat>
+        <deadline>10</deadline>
+        <feedback>bun</feedback>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="12">
+        <nr>2</nr>
+        <valoare>3.0</valoare>
+        <predat>4</predat>
+        <deadline>10</deadline>
+        <feedback>5</feedback>
+    </Nota>
+</Note>

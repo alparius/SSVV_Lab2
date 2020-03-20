@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="11">
+        <nume>Roman Ionut</nume>
+        <nr>1</nr>
+        <valoare>5.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="21">
+        <nume>Gorea Andra</nume>
+        <nr>1</nr>
+        <valoare>5.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="12">
+        <nume>Roman Ionut</nume>
+        <nr>2</nr>
+        <valoare>3.0</valoare>
+    </Nota>
+</Note>
