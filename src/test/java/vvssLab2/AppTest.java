@@ -28,4 +28,54 @@ public class AppTest
         studentRepo.save(new Student("2294", "Cseke Alpar", 932, "","Craciun Florin"));
     }
 
+    @Test
+    public void tc_4_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
+    @Test
+    public void tc_5_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
+    @Test
+    public void tc_6_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
+    @Test
+    public void tc_7_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
+    @Test
+    public void tc_8_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
+    @Test
+    public void tc_9_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
+    @Test
+    public void tc_10_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
+    @Test
+    public void tc_11_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
+    @Test
+    public void tc_12_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
+    @Test
+    public void tc_13_() {
+        studentRepo = new StudentRepo(new StudentValidator(),"studenti.xml");
+    }
+
 }
