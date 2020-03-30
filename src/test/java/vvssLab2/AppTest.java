@@ -53,14 +53,14 @@ public class AppTest
     }
 
     @Test
-    public void tc_4_AddAssignment() {
+    public void tc_3_AddAssignment() {
         temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(6, "description", 10, 14));
         assertEquals(4, temeRepo.size());
     }
 
     @Test
-    public void tc_3_AddAssignment_UsedUpID() {
+    public void tc_4_AddAssignment_UsedUpID() {
         temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(3, "description", 10, 14));
         assertEquals(3, temeRepo.size());
