@@ -8,14 +8,14 @@
     </Student>
     <Student idStudent="2">
         <nume>Gorea Andra</nume>
-        <grupa>921</grupa>
+        <grupa>931</grupa>
         <mail>gaie1234@scs.ubbcluj.ro</mail>
         <profesor>Lovin Andrei</profesor>
     </Student>
-    <Student idStudent="2294">
-        <nume>Cseke Alpar</nume>
-        <grupa>932</grupa>
-        <mail>csekealpar12@gmail.com</mail>
-        <profesor>Craciun Florin</profesor>
+    <Student idStudent="921">
+        <nume>Gorea Andra</nume>
+        <grupa>931</grupa>
+        <mail>gaie1234@scs.ubbcluj.ro</mail>
+        <profesor>Lovin Andrei</profesor>
     </Student>
 </inbox>
