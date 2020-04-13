@@ -30,80 +30,67 @@ public class WBTAddAssignment
 
     @Test
     public void tc_1_AddAssignment() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(6, "test", 4, 8));
         assertEquals(4, temeRepo.size());
     }
 
     @Test(expected = ValidationException.class)
     public void tc_2_AddAssignment_TooLittleId() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(0, "test", 4, 8));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_3_AddAssignment_NullId() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(null, "test", 4, 8));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_4_AddAssignment_TooLittleDeadline() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(6, "test", 4, 0));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_5_AddAssignment_TooBigDeadline() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(6, "test", 4, 20));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_6_AddAssignment_DeadlineBeforeReceived() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(6, "test", 4, 3));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_7_AddAssignment_TooLittleReceived() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(6, "test", 0, 8));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_8_AddAssignment_TooBigReceived() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(6, "test", 20, 8));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_9_AddAssignment_BadIdAndDeadline() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(0, "test", 4, 0));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_10_AddAssignment_BadIdAndReceived() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(0, "test", 0, 8));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_11_AddAssignment_BadDeadlineAndReceived() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(6, "test", 0, 0));
     }
 
     @Test(expected = ValidationException.class)
     public void tc_12_AddAssignment_BadEverything() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         temeRepo.save(new Teme(0, "test", 0, 0));
     }
 
     @Test
     public void tc_13_AddAssignment_UsedUpID() {
-        temeRepo = new TemeRepo(new TemeValidator(),"teme.xml");
         assertEquals(3, temeRepo.size());
         temeRepo.save(new Teme(1, "description", 4, 8));
         assertEquals(3, temeRepo.size());

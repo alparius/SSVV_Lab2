@@ -12,4 +12,10 @@
         <mail>gaie1234@scs.ubbcluj.ro</mail>
         <profesor>Lovin Andrei</profesor>
     </Student>
+    <Student idStudent="6">
+        <nume>Test Student</nume>
+        <grupa>932</grupa>
+        <mail>test@email.com</mail>
+        <profesor>Test Prof</profesor>
+    </Student>
 </inbox>

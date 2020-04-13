@@ -1,50 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
-    <Nota idNota="21">
-        <nr>1</nr>
-        <valoare>5.0</valoare>
-        <predat>6</predat>
-        <deadline>10</deadline>
-        <feedback>gresit</feedback>
-    </Nota>
-</Note>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Note>
-    <Nota idNota="23">
-        <nr>3</nr>
+    <Nota idNota="66">
+        <nr>6</nr>
         <valoare>8.0</valoare>
         <predat>6</predat>
-        <deadline>13</deadline>
+        <deadline>8</deadline>
         <feedback>good enough</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
-    <Nota idNota="23">
-        <nr>3</nr>
+    <Nota idNota="66">
+        <nr>6</nr>
         <valoare>8.0</valoare>
         <predat>6</predat>
-        <deadline>13</deadline>
+        <deadline>8</deadline>
         <feedback>good enough</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
-    <Nota idNota="23">
-        <nr>3</nr>
+    <Nota idNota="66">
+        <nr>6</nr>
         <valoare>8.0</valoare>
         <predat>6</predat>
-        <deadline>13</deadline>
+        <deadline>8</deadline>
         <feedback>good enough</feedback>
     </Nota>
 </Note>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Note>
-    <Nota idNota="23">
-        <nr>3</nr>
+    <Nota idNota="66">
+        <nr>6</nr>
         <valoare>8.0</valoare>
         <predat>6</predat>
-        <deadline>13</deadline>
+        <deadline>8</deadline>
         <feedback>good enough</feedback>
     </Nota>
 </Note>
