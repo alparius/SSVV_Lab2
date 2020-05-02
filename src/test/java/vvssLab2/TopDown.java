@@ -57,22 +57,6 @@ public class TopDown
     }
 
     @Test
-    public void tc_4_AddAssignment() {
-        assertEquals(3, temeRepo.size());
-        studentRepo.save(new Student("6", "Test Student", 932, "test@email.com","Test Prof"));
-        temeRepo.save(new Teme(6, "test", 4, 8));
-        assertEquals(3, studentRepo.size());
-    }
-
-    @Test
-    public void tc_5_AddGrade() {
-        Student st = studentRepo.findOne("2");
-        Teme tm = temeRepo.findOne(3);
-        noteRepo.save(new Nota(new AbstractMap.SimpleEntry<>("2", 3), st, tm, 8, 6), "good enough");
-        assertEquals(8, (int)noteRepo.findOne(new AbstractMap.SimpleEntry<>("2", 3)).getVal());
-    }
-
-    @Test
     public void tc_2_Half() {
         // checking preconditions
         assertEquals(2, studentRepo.size());
@@ -109,6 +93,5 @@ public class TopDown
         assertEquals(4, temeRepo.size());
         assertEquals(8, (int)noteRepo.findOne(new AbstractMap.SimpleEntry<>("6", 6)).getVal());
     }
-
 }
 
