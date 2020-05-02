@@ -86,3 +86,35 @@
         <valoare>8.0</valoare>
     </Nota>
 </Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="66">
+        <nume>Test Student</nume>
+        <nr>6</nr>
+        <valoare>8.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="66">
+        <nume>Test Student</nume>
+        <nr>6</nr>
+        <valoare>8.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="66">
+        <nume>Test Student</nume>
+        <nr>6</nr>
+        <valoare>8.0</valoare>
+    </Nota>
+</Note>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Note>
+    <Nota idNota="66">
+        <nume>Test Student</nume>
+        <nr>6</nr>
+        <valoare>8.0</valoare>
+    </Nota>
+</Note>
